@@ -17,6 +17,12 @@ swift30를 참고해 swiftUI에서 uiKit에 조금더 익숙하게 하기 위한
 2. day2: changeFont storyboard clear, controller dev
 
 
+[완료 목록]
+1.
+
+https://user-images.githubusercontent.com/78361650/167365359-fea8a3dc-848a-4c35-8403-480a758f8d4b.mp4
+
+
 
 
 
