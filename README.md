@@ -15,12 +15,17 @@ swift30를 참고해 swiftUI에서 uiKit에 조금더 익숙하게 하기 위한
 
 1. day1: stopwatch clear
 2. day2: changeFont storyboard clear, controller dev
+ - 2번은 거의 완성했으나 코드 정리 및 폰트를 2개만 해서 기존 소스 분석해서 리빌딩이 남음
 
 
 [완료 목록]
 1.
 
 https://user-images.githubusercontent.com/78361650/167365359-fea8a3dc-848a-4c35-8403-480a758f8d4b.mp4
+
+2.
+
+https://user-images.githubusercontent.com/78361650/167558644-b9e92f82-046f-4db6-a858-42499e2eef51.mp4
 
 
 
