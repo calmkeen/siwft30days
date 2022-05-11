@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7524A096282B8619008444E9 /* videoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524A095282B8619008444E9 /* videoModel.swift */; };
+		753151D0282A568B005052F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151CF282A568B005052F9 /* AppDelegate.swift */; };
+		753151D2282A568B005052F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151D1282A568B005052F9 /* SceneDelegate.swift */; };
+		753151D4282A568B005052F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151D3282A568B005052F9 /* ViewController.swift */; };
+		753151D7282A568B005052F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753151D5282A568B005052F9 /* Main.storyboard */; };
+		753151D9282A568C005052F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753151D8282A568C005052F9 /* Assets.xcassets */; };
+		753151DC282A568C005052F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753151DA282A568C005052F9 /* LaunchScreen.storyboard */; };
+		753151E7282A568C005052F9 /* Project03___PlayLocalViedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151E6282A568C005052F9 /* Project03___PlayLocalViedoTests.swift */; };
+		753151F1282A568C005052F9 /* Project03___PlayLocalViedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151F0282A568C005052F9 /* Project03___PlayLocalViedoUITests.swift */; };
+		753151F3282A568C005052F9 /* Project03___PlayLocalViedoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151F2282A568C005052F9 /* Project03___PlayLocalViedoUITestsLaunchTests.swift */; };
+		75315200282A57E4005052F9 /* VideoCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753151FF282A57E4005052F9 /* VideoCellController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		753151E3282A568C005052F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753151C4282A568B005052F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753151CB282A568B005052F9;
+			remoteInfo = "Project03 - PlayLocalViedo";
+		};
+		753151ED282A568C005052F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 753151C4282A568B005052F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753151CB282A568B005052F9;
+			remoteInfo = "Project03 - PlayLocalViedo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7524A095282B8619008444E9 /* videoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoModel.swift; sourceTree = "<group>"; };
+		753151CC282A568B005052F9 /* Project03 - PlayLocalViedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project03 - PlayLocalViedo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753151CF282A568B005052F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753151D1282A568B005052F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		753151D3282A568B005052F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753151D6282A568B005052F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		753151D8282A568C005052F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		753151DB282A568C005052F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		753151DD282A568C005052F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753151E2282A568C005052F9 /* Project03 - PlayLocalViedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project03 - PlayLocalViedoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753151E6282A568C005052F9 /* Project03___PlayLocalViedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project03___PlayLocalViedoTests.swift"; sourceTree = "<group>"; };
+		753151EC282A568C005052F9 /* Project03 - PlayLocalViedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project03 - PlayLocalViedoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753151F0282A568C005052F9 /* Project03___PlayLocalViedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project03___PlayLocalViedoUITests.swift"; sourceTree = "<group>"; };
+		753151F2282A568C005052F9 /* Project03___PlayLocalViedoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project03___PlayLocalViedoUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		753151FF282A57E4005052F9 /* VideoCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCellController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753151C9282A568B005052F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151DF282A568C005052F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151E9282A568C005052F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753151C3282A568B005052F9 = {
+			isa = PBXGroup;
+			children = (
+				753151CE282A568B005052F9 /* Project03 - PlayLocalViedo */,
+				753151E5282A568C005052F9 /* Project03 - PlayLocalViedoTests */,
+				753151EF282A568C005052F9 /* Project03 - PlayLocalViedoUITests */,
+				753151CD282A568B005052F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		753151CD282A568B005052F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753151CC282A568B005052F9 /* Project03 - PlayLocalViedo.app */,
+				753151E2282A568C005052F9 /* Project03 - PlayLocalViedoTests.xctest */,
+				753151EC282A568C005052F9 /* Project03 - PlayLocalViedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753151CE282A568B005052F9 /* Project03 - PlayLocalViedo */ = {
+			isa = PBXGroup;
+			children = (
+				753151CF282A568B005052F9 /* AppDelegate.swift */,
+				753151D1282A568B005052F9 /* SceneDelegate.swift */,
+				753151D3282A568B005052F9 /* ViewController.swift */,
+				753151FF282A57E4005052F9 /* VideoCellController.swift */,
+				7524A095282B8619008444E9 /* videoModel.swift */,
+				753151D5282A568B005052F9 /* Main.storyboard */,
+				753151D8282A568C005052F9 /* Assets.xcassets */,
+				753151DA282A568C005052F9 /* LaunchScreen.storyboard */,
+				753151DD282A568C005052F9 /* Info.plist */,
+			);
+			path = "Project03 - PlayLocalViedo";
+			sourceTree = "<group>";
+		};
+		753151E5282A568C005052F9 /* Project03 - PlayLocalViedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				753151E6282A568C005052F9 /* Project03___PlayLocalViedoTests.swift */,
+			);
+			path = "Project03 - PlayLocalViedoTests";
+			sourceTree = "<group>";
+		};
+		753151EF282A568C005052F9 /* Project03 - PlayLocalViedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				753151F0282A568C005052F9 /* Project03___PlayLocalViedoUITests.swift */,
+				753151F2282A568C005052F9 /* Project03___PlayLocalViedoUITestsLaunchTests.swift */,
+			);
+			path = "Project03 - PlayLocalViedoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753151CB282A568B005052F9 /* Project03 - PlayLocalViedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753151F6282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedo" */;
+			buildPhases = (
+				753151C8282A568B005052F9 /* Sources */,
+				753151C9282A568B005052F9 /* Frameworks */,
+				753151CA282A568B005052F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project03 - PlayLocalViedo";
+			productName = "Project03 - PlayLocalViedo";
+			productReference = 753151CC282A568B005052F9 /* Project03 - PlayLocalViedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		753151E1282A568C005052F9 /* Project03 - PlayLocalViedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753151F9282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedoTests" */;
+			buildPhases = (
+				753151DE282A568C005052F9 /* Sources */,
+				753151DF282A568C005052F9 /* Frameworks */,
+				753151E0282A568C005052F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753151E4282A568C005052F9 /* PBXTargetDependency */,
+			);
+			name = "Project03 - PlayLocalViedoTests";
+			productName = "Project03 - PlayLocalViedoTests";
+			productReference = 753151E2282A568C005052F9 /* Project03 - PlayLocalViedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		753151EB282A568C005052F9 /* Project03 - PlayLocalViedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753151FC282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedoUITests" */;
+			buildPhases = (
+				753151E8282A568C005052F9 /* Sources */,
+				753151E9282A568C005052F9 /* Frameworks */,
+				753151EA282A568C005052F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753151EE282A568C005052F9 /* PBXTargetDependency */,
+			);
+			name = "Project03 - PlayLocalViedoUITests";
+			productName = "Project03 - PlayLocalViedoUITests";
+			productReference = 753151EC282A568C005052F9 /* Project03 - PlayLocalViedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753151C4282A568B005052F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					753151CB282A568B005052F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					753151E1282A568C005052F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 753151CB282A568B005052F9;
+					};
+					753151EB282A568C005052F9 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 753151CB282A568B005052F9;
+					};
+				};
+			};
+			buildConfigurationList = 753151C7282A568B005052F9 /* Build configuration list for PBXProject "Project03 - PlayLocalViedo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753151C3282A568B005052F9;
+			productRefGroup = 753151CD282A568B005052F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753151CB282A568B005052F9 /* Project03 - PlayLocalViedo */,
+				753151E1282A568C005052F9 /* Project03 - PlayLocalViedoTests */,
+				753151EB282A568C005052F9 /* Project03 - PlayLocalViedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753151CA282A568B005052F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753151DC282A568C005052F9 /* LaunchScreen.storyboard in Resources */,
+				753151D9282A568C005052F9 /* Assets.xcassets in Resources */,
+				753151D7282A568B005052F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151E0282A568C005052F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151EA282A568C005052F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753151C8282A568B005052F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753151D4282A568B005052F9 /* ViewController.swift in Sources */,
+				753151D0282A568B005052F9 /* AppDelegate.swift in Sources */,
+				753151D2282A568B005052F9 /* SceneDelegate.swift in Sources */,
+				7524A096282B8619008444E9 /* videoModel.swift in Sources */,
+				75315200282A57E4005052F9 /* VideoCellController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151DE282A568C005052F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753151E7282A568C005052F9 /* Project03___PlayLocalViedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753151E8282A568C005052F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753151F1282A568C005052F9 /* Project03___PlayLocalViedoUITests.swift in Sources */,
+				753151F3282A568C005052F9 /* Project03___PlayLocalViedoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		753151E4282A568C005052F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753151CB282A568B005052F9 /* Project03 - PlayLocalViedo */;
+			targetProxy = 753151E3282A568C005052F9 /* PBXContainerItemProxy */;
+		};
+		753151EE282A568C005052F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753151CB282A568B005052F9 /* Project03 - PlayLocalViedo */;
+			targetProxy = 753151ED282A568C005052F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		753151D5282A568B005052F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753151D6282A568B005052F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		753151DA282A568C005052F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753151DB282A568C005052F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753151F4282A568C005052F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		753151F5282A568C005052F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753151F7282A568C005052F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project03 - PlayLocalViedo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		753151F8282A568C005052F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project03 - PlayLocalViedo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		753151FA282A568C005052F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project03 - PlayLocalViedo.app/Project03 - PlayLocalViedo";
+			};
+			name = Debug;
+		};
+		753151FB282A568C005052F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project03 - PlayLocalViedo.app/Project03 - PlayLocalViedo";
+			};
+			name = Release;
+		};
+		753151FD282A568C005052F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project03 - PlayLocalViedo";
+			};
+			name = Debug;
+		};
+		753151FE282A568C005052F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N2TRX73U6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.calmkeen.Project03---PlayLocalViedoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Project03 - PlayLocalViedo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753151C7282A568B005052F9 /* Build configuration list for PBXProject "Project03 - PlayLocalViedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753151F4282A568C005052F9 /* Debug */,
+				753151F5282A568C005052F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753151F6282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753151F7282A568C005052F9 /* Debug */,
+				753151F8282A568C005052F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753151F9282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753151FA282A568C005052F9 /* Debug */,
+				753151FB282A568C005052F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753151FC282A568C005052F9 /* Build configuration list for PBXNativeTarget "Project03 - PlayLocalViedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753151FD282A568C005052F9 /* Debug */,
+				753151FE282A568C005052F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753151C4282A568B005052F9 /* Project object */;
+}
