@@ -40,6 +40,9 @@
                                                     <rect key="frame" x="143.5" y="-15.5" width="127" height="74.5"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="playBtn" title="Button"/>
+                                                    <connections>
+                                                        <action selector="clicBbtn:" destination="1ao-Ww-bI0" eventType="touchUpInside" id="Yjp-Tf-aOm"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dS5-Uz-tak" userLabel="video source">
                                                     <rect key="frame" x="186" y="10.5" width="42" height="21"/>
@@ -61,6 +64,8 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="screenShot" destination="bk1-Dv-sKP" id="rVY-dX-fEm"/>
+                                            <outlet property="videoSourceLabel" destination="dS5-Uz-tak" id="cx4-yd-9qr"/>
+                                            <outlet property="videoTitle" destination="GIf-Ks-E3W" id="fCk-fS-9zD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
