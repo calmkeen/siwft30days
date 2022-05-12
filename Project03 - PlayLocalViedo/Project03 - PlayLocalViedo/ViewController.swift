@@ -12,6 +12,7 @@ import AVKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var videoTableView: UITableView!
+    
     private var cellIdentifier = "VideoCell"
     
     
@@ -77,10 +78,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = videoTableView.dequeueReusableCell(withIdentifier: self.cellIdentifier, for: indexPath) as! VideoCell
         let videoData = videoData[indexPath.row]
         
-        cell.videoSourceLabel.image = UIImage(named: videoData.image)
         cell.videoTitle.text = videoData.title
-        cell.screenShot.text = videoData.source
-        
+        cell.screenShot.image = UIImage(named: videoData.image)
+        cell.videoSourceLabel.text = videoData.source
         return cell
     
     }

@@ -17,6 +17,7 @@ import AVKit
 
 class VideoCell : UITableViewCell{
     
+    
     @IBOutlet weak var videoSourceLabel: UILabel!
     @IBOutlet weak var videoTitle: UILabel!
     @IBOutlet weak var screenShot: UIImageView!
