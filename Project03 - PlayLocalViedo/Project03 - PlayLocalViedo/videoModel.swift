@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct VideoData{
-    let image : String
+struct Video{
+    let image: String
     let title: String
     let source: String
 //    let play: Bool
