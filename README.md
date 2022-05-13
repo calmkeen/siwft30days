@@ -17,6 +17,8 @@ swift30를 참고해 swiftUI에서 uiKit에 조금더 익숙하게 하기 위한
 2. day2: changeFont storyboard clear, controller dev
  - 2번은 거의 완성했으나 코드 정리 및 폰트를 2개만 해서 기존 소스 분석해서 리빌딩이 남음
 
+3. day3: playLocationVideo
+ - 비디오 경로가 자꾸 다른곳으로 잡히는 문제가 있는데 그걸 빼면 문제 됨. 테두리가 흰색인 건 safeArea를 설정해두어서다.
 
 [완료 목록]
 1.
