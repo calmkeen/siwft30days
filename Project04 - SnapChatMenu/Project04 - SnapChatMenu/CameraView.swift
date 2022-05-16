@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-class CameraView: UIViewController {
+class CameraView: UIViewController, AVCapturePhotoCaptureDelegate {
     
     
     @IBOutlet weak var cameraView: UIView!
@@ -67,7 +67,39 @@ class CameraView: UIViewController {
         // 세션 정지
         self.captureSession.stopRunning()
     }
+    func setPreviewPhoto(){
+        let previewLayer = AVCaptureVideoPreviewLayer()
+        previewLayer.session = captureSession
+        view.layer.addSublayer(previewLayer)
+        
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.captureSession.startRunning()
+            
+            DispatchQueue.main.async {
+                self.previewLayer?.frame = self.cameraView.bounds
+            }
+        }
+    }
     
+    @IBOutlet weak var tempImageView: UIImageView!
+    
+    func didTakePhoto() {
+        // 호출될 때 마다 다른 세팅을 주어야 하기 때문에 메서드 안에서 생성
+        let settings = AVCapturePhotoSettings(
+format: [AVVideoCodecKey: AVVideoCodecType.jpeg])
+        
+        // 아래에 AVCapturePhotoCaptureDelegate를 채택
+        stillImageOutput.capturePhoto(with: settings, delegate: self)
+    }
+}
+
+extension ViewController: AVCapturePhotoCaptureDelegate {
+
+    func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
+        guard let imageData = photo.fileDataRepresentation() else { return }
+        let image = UIImage(data: imageData)
+        print(image)
+    }
 }
 
 
