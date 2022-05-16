@@ -19,6 +19,9 @@ swift30를 참고해 swiftUI에서 uiKit에 조금더 익숙하게 하기 위한
 
 3. day3: playLocationVideo
  - 비디오 경로가 자꾸 다른곳으로 잡히는 문제가 있는데 그걸 빼면 문제 됨. 테두리가 흰색인 건 safeArea를 설정해두어서다.
+4. day4: SnapChatMenu
+- 카메라 기능의 이해를 완전히 해서 작성하고 싶다.아직 카메라불러 사용하는 부분의 구현을 큐나 버퍼같은 형식으로 사용하는 것을 완벽하게 숙지하지 못함.
+-leftView,RightView 확인 결과 단지 xib형식으로 뷰를 붙여 scrollVIew로 보여줄 뿐이라 이미지 없이 그냥 버튼이나 label로 대체할 예정
 
 [완료 목록]
 1.
