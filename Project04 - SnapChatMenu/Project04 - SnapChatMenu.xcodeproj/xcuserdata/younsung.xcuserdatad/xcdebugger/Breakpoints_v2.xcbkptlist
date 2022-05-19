@@ -3,4 +3,330 @@
    uuid = "9444B464-DF76-4D56-8DFB-122BB1CF127B"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project04 - SnapChatMenu/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - 7d39a21c879fd401"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.scrollView.getter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - 97b4875c820df415"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.scrollView.setter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - f24927de93e62c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - 7f94198bf17335b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - e548dcf95e4485e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Project04___SnapChatMenu.ViewController"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "E9A5F87C-5DC1-47C9-ACDE-EFB03B4007BB - 898e865de7a1cf48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project04___SnapChatMenu.ViewController&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project04 - SnapChatMenu/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CameraView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - f995ca5e7ac19726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.cameraView.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - 2d2822ad7043ff3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.cameraView.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - b1b4228c2655c125"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.cameraView.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - 26c9bc250e10112"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.cameraView.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - c27f67c8839f6d91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Project04___SnapChatMenu.CameraView"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "932C00B8-5B1D-4874-85A2-5B2B26BC707B - d809f0e2fbab1054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project04___SnapChatMenu.CameraView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project04 - SnapChatMenu/CameraView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "CameraView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - 5414739dc51209be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.CapturepreviewLayer.getter : Swift.Optional&lt;__C.AVCaptureVideoPreviewLayer&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - dd9227e89066e1b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.CapturepreviewLayer.setter : Swift.Optional&lt;__C.AVCaptureVideoPreviewLayer&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - dc4a5c0ada2a0fa3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.CapturepreviewLayer.modify : Swift.Optional&lt;__C.AVCaptureVideoPreviewLayer&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - 3ade010b46c0330"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.CapturepreviewLayer.modify : Swift.Optional&lt;__C.AVCaptureVideoPreviewLayer&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - c27f67c8839f6d70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Project04___SnapChatMenu.CameraView"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "C059727E-FB06-4FBD-85C8-CB4FFDE315B0 - d809f0e2fbab10b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project04___SnapChatMenu.CameraView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project04___SnapChatMenu.CameraView&gt;"
+                  moduleName = "Project04 - SnapChatMenu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project04%20-%20SnapChatMenu/Project04%20-%20SnapChatMenu/CameraView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

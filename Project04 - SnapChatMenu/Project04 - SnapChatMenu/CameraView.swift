@@ -12,15 +12,9 @@ class CameraView: UIViewController, AVCapturePhotoCaptureDelegate {
     
     
     @IBOutlet weak var cameraView: UIView!
-    var previewLayer : AVCaptureVideoPreviewLayer?
+    var CapturepreviewLayer : AVCaptureVideoPreviewLayer?
     var stillImageOutput: AVCapturePhotoOutput!
-    
     var captureSession: AVCaptureSession!
-    var backCamera: AVCaptureDevice!
-    var frontCamera: AVCaptureDevice!
-    var backCameraInput: AVCaptureInput!
-    var frontCameraInput: AVCaptureInput!
-    var videoOutput: AVCaptureVideoDataOutput!
     
     var takePicture = false
     var isBackCamera = true
@@ -37,7 +31,7 @@ class CameraView: UIViewController, AVCapturePhotoCaptureDelegate {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        previewLayer?.frame = cameraView.bounds
+        //CapturepreviewLayer?.frame = cameraView.bounds
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -48,6 +42,7 @@ class CameraView: UIViewController, AVCapturePhotoCaptureDelegate {
         guard let backCamera = AVCaptureDevice.default(for: .video) else{
             return print("NSError")
         }
+        
         do {
             let input = try AVCaptureDeviceInput(device: backCamera)
             stillImageOutput = AVCapturePhotoOutput()
@@ -55,46 +50,56 @@ class CameraView: UIViewController, AVCapturePhotoCaptureDelegate {
             if captureSession.canAddInput(input) && captureSession.canAddOutput(stillImageOutput) {
                 captureSession.addInput(input)
                 captureSession.addOutput(stillImageOutput)
-                // 여기에서 preview 세팅하는 함수 호출
+                setPreviewPhoto()
             }
         } catch {
             print(error.localizedDescription)
         }
         
+        func setPreviewPhoto(){
+            let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+            previewLayer.session = captureSession
+            previewLayer.videoGravity = .resizeAspectFill
+            previewLayer.connection?.videoOrientation = .portrait
+            cameraView.layer.addSublayer(CapturepreviewLayer!)
+            //captureSession?.startRunning()
+            startCaptureSession()
+        }
     }
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        // 세션 정지
-        self.captureSession.stopRunning()
-    }
-    func setPreviewPhoto(){
-        let previewLayer = AVCaptureVideoPreviewLayer()
-        previewLayer.session = captureSession
-        view.layer.addSublayer(previewLayer)
-        
+    @IBOutlet tempImage: UIImageView!
+    private func startCaptureSession(){
         DispatchQueue.global(qos: .userInitiated).async {
             self.captureSession.startRunning()
             
             DispatchQueue.main.async {
-                self.previewLayer?.frame = self.cameraView.bounds
+                self.CapturepreviewLayer?.frame = self.cameraView.bounds
             }
         }
     }
     
-    @IBOutlet weak var tempImageView: UIImageView!
+    
+    
+    
+    
+    // preview까지 준비되었으니 captureSession을 시작하도록 설정
     
     func didTakePhoto() {
         // 호출될 때 마다 다른 세팅을 주어야 하기 때문에 메서드 안에서 생성
-        let settings = AVCapturePhotoSettings(
-format: [AVVideoCodecKey: AVVideoCodecType.jpeg])
+        //        let previewPixelType = settings.availablePreviewPhotoPixelFormatTypes.first!
+        //        let previewFormat = [kCVPixelBufferPixelFormatTypeKey as String: previewPixelType,
+        //                                       kCVPixelBufferWidthKey as String: 160,
+        //                                       kCVPixelBufferHeightKey as String: 160]
+        //                  settings.previewPhotoFormat = previewFormat
+        
         
         // 아래에 AVCapturePhotoCaptureDelegate를 채택
-        stillImageOutput.capturePhoto(with: settings, delegate: self)
+        //stillImageOutput.capturePhoto(with: settings, delegate: self)
     }
+    
 }
 
 extension ViewController: AVCapturePhotoCaptureDelegate {
-
+    
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         guard let imageData = photo.fileDataRepresentation() else { return }
         let image = UIImage(data: imageData)
