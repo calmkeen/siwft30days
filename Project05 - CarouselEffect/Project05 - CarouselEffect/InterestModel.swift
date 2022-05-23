@@ -16,24 +16,22 @@ class Info{
     var numberOfMembers = 0
     var numberOfPosts = 9
     
-    init(title: String, context: String, feaaturedImage: UIImage){
+    init(title: String, context: String, featuredImage: UIImage!){
         self.title = title
         self.context = context
         self.featuredImage = featuredImage
-        self.numberOfPosts = 1
-        self.numberOfMembers = 1
+        numberOfPosts = 1
+        numberOfMembers = 1
     }
     
     static func Interest() -> [Info]{
-        
         return
         [
-        Info(title: "study", context: "study hard for me", feaaturedImage: UIImage(name: "study"))
-        Info(title: "Camera", context: "Realism photo", feaaturedImage: UIImage(name:"Camera"))
-        Info(title: "gmae", context: "playgame Apex", feaaturedImage: UIImage(name:"apex"))
-        Info(title: "basketball", context: "play basketball", feaaturedImage: UIImage(named: "curry"))
-        Info(title: "sleep", context: "it's really awesome", feaaturedImage: UIImage(name:"sleep"))
+        Info(title: "study", context: "study hard for me", featuredImage: UIImage(named: "study")),
+        Info(title: "Camera", context: "Realism photo", featuredImage: UIImage(named:"Camera")),
+        Info(title: "gmae", context: "playgame Apex", featuredImage: UIImage(named:"apex")),
+        Info(title: "basketball", context: "play basketball", featuredImage: UIImage(named: "curry")),
+        Info(title: "sleep", context: "it's really awesome", featuredImage: UIImage(named:"sleep"))
         ]
-    
-    
+    }
 }
