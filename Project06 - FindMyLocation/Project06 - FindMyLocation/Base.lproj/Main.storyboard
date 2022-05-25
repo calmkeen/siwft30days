@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project06___FindMyLocation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="짱구" translatesAutoresizingMaskIntoConstraints="NO" id="Cj5-mj-Srn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oZZ-xb-lIm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OpI-Dn-7r4">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0H-t2-cbP">
+                                            <rect key="frame" x="50" y="767" width="314" height="31"/>
+                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="Find My Location"/>
+                                            <connections>
+                                                <action selector="findBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HNl-Zm-fmc"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6o-i3-6hW">
+                                            <rect key="frame" x="30" y="30" width="354" height="33.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="f0H-t2-cbP" firstAttribute="leading" secondItem="OpI-Dn-7r4" secondAttribute="leading" constant="50" id="ESm-Js-owh"/>
+                                        <constraint firstItem="F6o-i3-6hW" firstAttribute="leading" secondItem="OpI-Dn-7r4" secondAttribute="leading" constant="30" id="VcV-KB-vWn"/>
+                                        <constraint firstAttribute="trailing" secondItem="f0H-t2-cbP" secondAttribute="trailing" constant="50" id="WkA-8a-PFR"/>
+                                        <constraint firstItem="F6o-i3-6hW" firstAttribute="top" secondItem="OpI-Dn-7r4" secondAttribute="top" constant="30" id="h6R-1K-j4v"/>
+                                        <constraint firstAttribute="trailing" secondItem="F6o-i3-6hW" secondAttribute="trailing" constant="30" id="sRN-Ya-l0a"/>
+                                        <constraint firstAttribute="bottom" secondItem="f0H-t2-cbP" secondAttribute="bottom" constant="20" id="zNf-lM-V3T"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oZZ-xb-lIm" secondAttribute="trailing" id="7Ed-rC-8Bp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cj5-mj-Srn" secondAttribute="bottom" id="89N-VG-LYm"/>
+                            <constraint firstItem="oZZ-xb-lIm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9KN-PB-C8d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oZZ-xb-lIm" secondAttribute="bottom" id="9cG-8A-d3d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cj5-mj-Srn" secondAttribute="trailing" id="JMe-hh-laf"/>
+                            <constraint firstItem="oZZ-xb-lIm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MCf-sV-tJf"/>
+                            <constraint firstItem="Cj5-mj-Srn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PFs-A0-Dyn"/>
+                            <constraint firstItem="Cj5-mj-Srn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gkP-Wm-osU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="findLocationLabel" destination="f0H-t2-cbP" id="Uce-L1-pQY"/>
+                        <outlet property="locationLabel" destination="F6o-i3-6hW" id="G2d-yB-DcB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="짱구" width="112" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
