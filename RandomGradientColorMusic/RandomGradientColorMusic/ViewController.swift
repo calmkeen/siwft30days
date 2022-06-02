@@ -29,7 +29,9 @@ class ViewController: UIViewController {
             gradientLayer.colors = [color1, color2]
         }
     }
-    
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
     
     
     override func viewDidLoad() {
@@ -39,9 +41,7 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    override var perfersStatusBarHidden: Bool {
-        return true
-    }
+ 
     
     
     
