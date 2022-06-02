@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C1146363-8D83-4A73-8836-E11205C29779"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D731199-AD06-44A6-814C-A48F48479441"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project07 - PullToRefresh/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - 62684407bf605d6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.index.getter : Swift.Int"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - 860816870a42c142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.index.setter : Swift.Int"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - a955b94310fb3417"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.index.modify : Swift.Int"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - 197680364d9caf25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.index.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - 846eb1ed7db73984"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Project07___PullToRefresh.ViewController"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "2D731199-AD06-44A6-814C-A48F48479441 - 46ec72e6cb8b02f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project07___PullToRefresh.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project07___PullToRefresh.ViewController&gt;"
+                  moduleName = "Project07 - PullToRefresh"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/younsung/development/swift30Days/Project07%20-%20PullToRefresh/Project07%20-%20PullToRefresh/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
