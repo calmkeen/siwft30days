@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project09___ImageScroller" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N6N-5D-GVf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="steve" translatesAutoresizingMaskIntoConstraints="NO" id="ACC-FY-1zh">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ACC-FY-1zh" firstAttribute="top" secondItem="DKg-vZ-nrr" secondAttribute="top" id="3gq-Gk-nEG"/>
+                                    <constraint firstItem="ACC-FY-1zh" firstAttribute="trailing" secondItem="DKg-vZ-nrr" secondAttribute="trailing" id="dE7-Yy-MDy"/>
+                                    <constraint firstItem="ACC-FY-1zh" firstAttribute="leading" secondItem="DKg-vZ-nrr" secondAttribute="leading" id="fHp-Lb-gZH"/>
+                                    <constraint firstItem="ACC-FY-1zh" firstAttribute="bottom" secondItem="DKg-vZ-nrr" secondAttribute="bottom" id="fb1-El-az5"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Oxv-oC-Ivz"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="DKg-vZ-nrr"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="nsBottomLocation" destination="fb1-El-az5" id="8HL-li-LKd"/>
+                        <outlet property="nsLeadingLocation" destination="fHp-Lb-gZH" id="blO-or-0eT"/>
+                        <outlet property="nsTopLocation" destination="3gq-Gk-nEG" id="HEM-gm-iC9"/>
+                        <outlet property="nsTraillingLocation" destination="dE7-Yy-MDy" id="ouA-6W-rmv"/>
+                        <outlet property="scrollView" destination="N6N-5D-GVf" id="nF5-Wa-Ghm"/>
+                        <outlet property="showImage" destination="ACC-FY-1zh" id="ea4-F5-CBJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="steve" width="320" height="320"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
