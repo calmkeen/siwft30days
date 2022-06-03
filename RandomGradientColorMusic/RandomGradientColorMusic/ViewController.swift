@@ -46,10 +46,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func playBtn(_ sender: AnyObject){
-        let bgMusic = URL(fileURLWithPath: Bundle.main.path(forResource: "Music1", ofType: "mp3"))
+        let bgMusic = URL(fileURLWithPath: Bundle.main.path(forResource: "Music1", ofType: "mp3")!)
         
         do {
-                   try AVAudioSession.sharedInstance().setCategory(playbtn)
+            //이거 에 관해서
+            //AVaudioSession.sharedInstance().setCategory(AVaduioseesionCategoryPlayback)이렇게 되면 안됨. 아예 함수가 안나옴.
+            //그런 이유로 (AVaudiosessions.Category.playback으로 해놨는데 맞는지 모르곘음
+            //try AVAudioSession.sharedInstance().setCategory(AVAudioSessioncate)
+            //문제 해결
+            try AVAudioSession.sharedInstance().setCategory(.playback)
                    try AVAudioSession.sharedInstance().setActive(true)
                    try audioPlayer = AVAudioPlayer(contentsOf: bgMusic)
                    
